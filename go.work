@@ -1,0 +1,6 @@
+go 1.19
+
+use ./client
+use ./main
+
+replace github.com/Dutchy-/spacetrader-go/client v0.0.0 => ./client
